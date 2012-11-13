@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5738F201624357600945B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5738F1F1624357600945B07 /* UIKit.framework */; };
+		A5738F221624357600945B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5738F211624357600945B07 /* Foundation.framework */; };
+		A5738F241624357600945B07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5738F231624357600945B07 /* CoreGraphics.framework */; };
+		A5738F2A1624357600945B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5738F281624357600945B07 /* InfoPlist.strings */; };
+		A5738F2C1624357600945B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5738F2B1624357600945B07 /* main.m */; };
+		A5738F301624357600945B07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5738F2F1624357600945B07 /* AppDelegate.m */; };
+		A5738F321624357600945B07 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5738F311624357600945B07 /* Default.png */; };
+		A5738F341624357600945B07 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5738F331624357600945B07 /* Default@2x.png */; };
+		A5738F361624357600945B07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5738F351624357600945B07 /* Default-568h@2x.png */; };
+		A5738F391624357600945B07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5738F381624357600945B07 /* ViewController.m */; };
+		A5738F3C1624357600945B07 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5738F3A1624357600945B07 /* ViewController.xib */; };
+		A5738F4616243C5600945B07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5738F4516243C5600945B07 /* QuartzCore.framework */; };
+		AC06B71C162DC3E900E19D6E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC06B71B162DC3E900E19D6E /* CoreImage.framework */; };
+		AC06B720162DCD6700E19D6E /* GradientCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = AC06B71F162DCD6700E19D6E /* GradientCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5738F1B1624357600945B07 /* TB_TouchAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TB_TouchAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5738F1F1624357600945B07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5738F211624357600945B07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5738F231624357600945B07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5738F271624357600945B07 /* TB_TouchAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TB_TouchAnimation-Info.plist"; sourceTree = "<group>"; };
+		A5738F291624357600945B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5738F2B1624357600945B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5738F2D1624357600945B07 /* TB_TouchAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TB_TouchAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		A5738F2E1624357600945B07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5738F2F1624357600945B07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5738F311624357600945B07 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A5738F331624357600945B07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A5738F351624357600945B07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5738F371624357600945B07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5738F381624357600945B07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5738F3B1624357600945B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A5738F4516243C5600945B07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AC06B71B162DC3E900E19D6E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		AC06B71E162DCD6700E19D6E /* GradientCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientCircle.h; sourceTree = "<group>"; };
+		AC06B71F162DCD6700E19D6E /* GradientCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientCircle.m; sourceTree = "<group>"; };
+		ACECBF56162F2BF800D5AF92 /* TB_TouchTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TB_TouchTest-Info.plist"; sourceTree = "<group>"; };
+		ACECBF58162F2BF800D5AF92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACECBF5A162F2BF800D5AF92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACECBF5C162F2BF800D5AF92 /* TB_TouchTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TB_TouchTest-Prefix.pch"; sourceTree = "<group>"; };
+		ACECBF5D162F2BF800D5AF92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACECBF5E162F2BF800D5AF92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACECBF60162F2BF800D5AF92 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACECBF62162F2BF800D5AF92 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		ACECBF64162F2BF800D5AF92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ACECBF66162F2BF800D5AF92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACECBF67162F2BF800D5AF92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACECBF6A162F2BF800D5AF92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		ACECBF72162F2BF800D5AF92 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		ACECBF7A162F2BF800D5AF92 /* TB_TouchTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TB_TouchTestTests-Info.plist"; sourceTree = "<group>"; };
+		ACECBF7C162F2BF800D5AF92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACECBF7E162F2BF800D5AF92 /* TB_TouchTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TB_TouchTestTests.h; sourceTree = "<group>"; };
+		ACECBF7F162F2BF800D5AF92 /* TB_TouchTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TB_TouchTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5738F181624357600945B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC06B71C162DC3E900E19D6E /* CoreImage.framework in Frameworks */,
+				A5738F4616243C5600945B07 /* QuartzCore.framework in Frameworks */,
+				A5738F201624357600945B07 /* UIKit.framework in Frameworks */,
+				A5738F221624357600945B07 /* Foundation.framework in Frameworks */,
+				A5738F241624357600945B07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5738F101624357600945B07 = {
+			isa = PBXGroup;
+			children = (
+				AC06B71B162DC3E900E19D6E /* CoreImage.framework */,
+				A5738F251624357600945B07 /* TB_TouchAnimation */,
+				ACECBF54162F2BF800D5AF92 /* TB_TouchTest */,
+				ACECBF78162F2BF800D5AF92 /* TB_TouchTestTests */,
+				A5738F1E1624357600945B07 /* Frameworks */,
+				A5738F1C1624357600945B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5738F1C1624357600945B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5738F1B1624357600945B07 /* TB_TouchAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5738F1E1624357600945B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5738F4516243C5600945B07 /* QuartzCore.framework */,
+				A5738F1F1624357600945B07 /* UIKit.framework */,
+				A5738F211624357600945B07 /* Foundation.framework */,
+				A5738F231624357600945B07 /* CoreGraphics.framework */,
+				ACECBF72162F2BF800D5AF92 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5738F251624357600945B07 /* TB_TouchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A5738F2E1624357600945B07 /* AppDelegate.h */,
+				A5738F2F1624357600945B07 /* AppDelegate.m */,
+				A5738F371624357600945B07 /* ViewController.h */,
+				A5738F381624357600945B07 /* ViewController.m */,
+				A5738F3A1624357600945B07 /* ViewController.xib */,
+				A5738F261624357600945B07 /* Supporting Files */,
+				AC06B71E162DCD6700E19D6E /* GradientCircle.h */,
+				AC06B71F162DCD6700E19D6E /* GradientCircle.m */,
+			);
+			path = TB_TouchAnimation;
+			sourceTree = "<group>";
+		};
+		A5738F261624357600945B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5738F271624357600945B07 /* TB_TouchAnimation-Info.plist */,
+				A5738F281624357600945B07 /* InfoPlist.strings */,
+				A5738F2B1624357600945B07 /* main.m */,
+				A5738F2D1624357600945B07 /* TB_TouchAnimation-Prefix.pch */,
+				A5738F311624357600945B07 /* Default.png */,
+				A5738F331624357600945B07 /* Default@2x.png */,
+				A5738F351624357600945B07 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACECBF54162F2BF800D5AF92 /* TB_TouchTest */ = {
+			isa = PBXGroup;
+			children = (
+				ACECBF5D162F2BF800D5AF92 /* AppDelegate.h */,
+				ACECBF5E162F2BF800D5AF92 /* AppDelegate.m */,
+				ACECBF66162F2BF800D5AF92 /* ViewController.h */,
+				ACECBF67162F2BF800D5AF92 /* ViewController.m */,
+				ACECBF69162F2BF800D5AF92 /* ViewController.xib */,
+				ACECBF55162F2BF800D5AF92 /* Supporting Files */,
+			);
+			path = TB_TouchTest;
+			sourceTree = "<group>";
+		};
+		ACECBF55162F2BF800D5AF92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACECBF56162F2BF800D5AF92 /* TB_TouchTest-Info.plist */,
+				ACECBF57162F2BF800D5AF92 /* InfoPlist.strings */,
+				ACECBF5A162F2BF800D5AF92 /* main.m */,
+				ACECBF5C162F2BF800D5AF92 /* TB_TouchTest-Prefix.pch */,
+				ACECBF60162F2BF800D5AF92 /* Default.png */,
+				ACECBF62162F2BF800D5AF92 /* Default@2x.png */,
+				ACECBF64162F2BF800D5AF92 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACECBF78162F2BF800D5AF92 /* TB_TouchTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACECBF7E162F2BF800D5AF92 /* TB_TouchTestTests.h */,
+				ACECBF7F162F2BF800D5AF92 /* TB_TouchTestTests.m */,
+				ACECBF79162F2BF800D5AF92 /* Supporting Files */,
+			);
+			path = TB_TouchTestTests;
+			sourceTree = "<group>";
+		};
+		ACECBF79162F2BF800D5AF92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACECBF7A162F2BF800D5AF92 /* TB_TouchTestTests-Info.plist */,
+				ACECBF7B162F2BF800D5AF92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5738F1A1624357600945B07 /* TB_TouchAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5738F3F1624357600945B07 /* Build configuration list for PBXNativeTarget "TB_TouchAnimation" */;
+			buildPhases = (
+				A5738F171624357600945B07 /* Sources */,
+				A5738F181624357600945B07 /* Frameworks */,
+				A5738F191624357600945B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TB_TouchAnimation;
+			productName = TB_TouchAnimation;
+			productReference = A5738F1B1624357600945B07 /* TB_TouchAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5738F121624357600945B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Yari Dareglia";
+			};
+			buildConfigurationList = A5738F151624357600945B07 /* Build configuration list for PBXProject "TB_TouchAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5738F101624357600945B07;
+			productRefGroup = A5738F1C1624357600945B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5738F1A1624357600945B07 /* TB_TouchAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5738F191624357600945B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5738F2A1624357600945B07 /* InfoPlist.strings in Resources */,
+				A5738F321624357600945B07 /* Default.png in Resources */,
+				A5738F341624357600945B07 /* Default@2x.png in Resources */,
+				A5738F361624357600945B07 /* Default-568h@2x.png in Resources */,
+				A5738F3C1624357600945B07 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5738F171624357600945B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5738F2C1624357600945B07 /* main.m in Sources */,
+				A5738F301624357600945B07 /* AppDelegate.m in Sources */,
+				A5738F391624357600945B07 /* ViewController.m in Sources */,
+				AC06B720162DCD6700E19D6E /* GradientCircle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5738F281624357600945B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5738F291624357600945B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5738F3A1624357600945B07 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5738F3B1624357600945B07 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		ACECBF57162F2BF800D5AF92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACECBF58162F2BF800D5AF92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACECBF69162F2BF800D5AF92 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACECBF6A162F2BF800D5AF92 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		ACECBF7B162F2BF800D5AF92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACECBF7C162F2BF800D5AF92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5738F3D1624357600945B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5738F3E1624357600945B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5738F401624357600945B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TB_TouchAnimation/TB_TouchAnimation-Prefix.pch";
+				INFOPLIST_FILE = "TB_TouchAnimation/TB_TouchAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5738F411624357600945B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TB_TouchAnimation/TB_TouchAnimation-Prefix.pch";
+				INFOPLIST_FILE = "TB_TouchAnimation/TB_TouchAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5738F151624357600945B07 /* Build configuration list for PBXProject "TB_TouchAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5738F3D1624357600945B07 /* Debug */,
+				A5738F3E1624357600945B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5738F3F1624357600945B07 /* Build configuration list for PBXNativeTarget "TB_TouchAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5738F401624357600945B07 /* Debug */,
+				A5738F411624357600945B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5738F121624357600945B07 /* Project object */;
+}
