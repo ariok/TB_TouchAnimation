@@ -66,6 +66,10 @@
     UIImage *result = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
+    // release resources
+    CGColorSpaceRelease(colorSpace);
+    CGGradientRelease(gradient);
+    
     return result;
 }
 
